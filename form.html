@@ -1,0 +1,112 @@
+ <!-- Creation of Registration Form -->
+
+<!DOCTYPE html>
+<head>
+    <title>hello</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+    </style>
+</head>
+
+ <!-- Set Background Color -->
+
+<body bgcolor ="lightgreen">  
+    <h1>Registration form</h1>
+    <form>
+
+        <!-- /Creation of text boxes  -->
+
+        <label >FirstName: </label>
+
+        <!-- Here placeholders act as a hint here -->
+
+        <input type="text" id="fname"  placeholder="Enter First Name" ><br><br>
+        <label >LastName:  </label>
+        <input type="text" id="lname"  placeholder="Enter last Name" ><br><br>
+        <label >DOB :</label>
+
+        <!-- Setting DOB using date method -->
+
+        <input type="date" id="DOB"><br><br>
+
+        <label >Enter your email:</label>
+
+         <!-- To validate email Format -->
+
+        <input type="email" id="email" placeholder="Enter valid email" ><br><br>
+
+        <!-- To Create a dropdown box -->
+
+            <label>   
+                Course:  
+                </label>   
+                <select>  
+                <option >Course</option>  
+                <option >CSE</option>  
+                <option >ECE</option>  
+                <option >EEE</option>  
+                </select><br><br>
+
+                <!-- To select any one option -->
+                
+                <label> Gender:</label> <br>
+                <input type="radio" name="Male">Male<br>
+                <input type="radio" name="female">Female<br><br>
+
+                <!-- To select any option -->
+
+                <label>Languages known :</label><br><br>
+                <input type="checkbox" id="l1" >Tamil
+                <br>
+                <input type="checkbox" id="l2" >English
+                <br>
+                <input type="checkbox" id="l3"  >Telugu
+                <br><br>
+
+                <label> Phone : </label>  
+                    <input type="text" name="country code"  value="+91" size="2">   
+                    <input type="text" name="phone" maxlength="10"> <br> <br> 
+                    
+                    
+                 <!-- for uploading image -->
+
+                  <label> Add your Photo less than 2 MB </label>
+                  <br><br>
+                    <input type="file" id="myFile" >
+                    <br><br>
+                    
+                     <!-- for uploading resume -->
+                  
+                  <label> Upload your resume </label>
+                  <br><br>
+                    <input type="file" id="myFile" >
+                    <br><br>
+
+                    <!-- for address we are using text area -->
+
+                    Address  
+                    <br>  
+                    <textarea cols="80" rows="5" value="address">  
+                    </textarea>  
+                    <br> <br>  
+ 
+                    Set Password:  
+                    <input type="Password" id="pass" > 
+                    <br> <br>  
+
+                     <!-- Navigate to another page -->
+                      
+                    <a href="https://hackwittechnologies.com/"">Visit our company</a>
+                    <br><br>
+        
+          <!-- To submit the form -->
+
+        <input type="submit" value="submit">
+
+
+
+    </form>
+</body>
+</html>
